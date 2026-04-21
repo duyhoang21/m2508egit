@@ -1,0 +1,5 @@
+In this example, the Person class is an abstract class that defines a getName() method, an getAge() method, and an abstract getSalary() method. The Director, Manager
+
+, and Employee classes are derived classes of Person that implement the getSalary() method differently. The PolymorphismExample class creates an array of Person objects that includes one Director, one Manager, and one Employee object. The for loop iterate
+
+s over the Person objects and calls the getName() and getSalary() methods for each object, demonstrating polymorphism.
